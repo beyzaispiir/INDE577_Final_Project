@@ -1,6 +1,7 @@
-# Decision Trees on Breast Cancer Dataset
+# 🌳 Decision Trees on Breast Cancer Dataset
 
-## About Decision Trees
+## 📋 About Decision Trees
+
 Decision Trees are a simple yet powerful supervised machine learning algorithm used for both classification and regression tasks.  
 The idea is to model decisions and their possible consequences as a tree structure, with internal nodes representing decision points based on feature values and leaf nodes representing predicted outcomes.
 
@@ -11,12 +12,13 @@ Although Decision Trees are prone to overfitting, controlling the maximum depth 
 
 ---
 
-## Summary of the Dataset
-For this project, I used the **Breast Cancer Wisconsin** dataset, which is a standard dataset included in Scikit-Learn.
+## 🗂️ Summary of the Dataset
+
+For this project, I used the **Breast Cancer Wisconsin** dataset, which is a standard dataset included in Scikit-learn.
 
 - **Samples:** 569
 - **Features:** 30 numerical features (e.g., radius, texture, smoothness, etc.)
-- **Target classes:** 
+- **Target Classes:**
   - 0 = Malignant (cancerous)
   - 1 = Benign (non-cancerous)
 
@@ -24,47 +26,53 @@ The dataset is moderately imbalanced with more benign samples than malignant one
 
 ---
 
-## Key Steps and Visualizations
+## 🔄 Key Steps and Visualizations
 
-### 1. Load and Explore Data
-I loaded the data, checked the shapes, and visualized the class distribution.  
-The initial exploration showed that benign tumors are slightly more common.
+### 📌 1. Load and Explore Data
 
-### 2. Train-Test Split
-I split the data into 80% training and 20% testing sets, ensuring stratification to preserve class balance.
+- Loaded the data, checked the shapes, and visualized the class distribution.
+- Initial exploration showed that benign tumors are slightly more common.
 
-### 3. Model Training
-I trained two types of decision trees:
-- A **full tree** without depth limitation (to observe overfitting).
-- A **pruned tree** with **max_depth=4** to improve generalization.
+### 📌 2. Train-Test Split
 
-### 4. Evaluation
-I evaluated models using:
-- Test Accuracy
-- Confusion Matrix
-- Precision, Recall, F1-score
-- Visualization of the tree structure
+- Split the data into 80% training and 20% testing sets.
+- Ensured stratification to preserve class balance between malignant and benign cases.
 
-The limited-depth tree achieved better balance between bias and variance, with a **Test Accuracy of 93.86%**.
+### 📌 3. Model Training
 
-### 5. Feature Importance
-I plotted feature importances assigned by the Decision Tree.  
-Features like **worst radius** and **worst concave points** were identified as the most critical factors for prediction.
+- Trained two types of Decision Trees:
+  - A **full tree** without depth limitation (to observe overfitting).
+  - A **pruned tree** with **max_depth=4** to improve generalization.
 
-### 6. Training vs Testing Accuracy vs Tree Depth
-I created a plot showing how accuracy evolves with tree depth.  
-It confirmed that allowing unrestricted depth leads to perfect training accuracy (overfitting), while a depth of around 4-5 gives the best testing performance.
+### 📌 4. Evaluation
+
+- Evaluated models using:
+  - Test Accuracy
+  - Confusion Matrix
+  - Precision, Recall, F1-score
+  - Visualization of the tree structure
+
+- The limited-depth tree achieved better balance between bias and variance, with a **Test Accuracy of 93.86%**.
+
+### 📌 5. Feature Importance
+
+- Plotted feature importances assigned by the Decision Tree.
+- Features like **worst radius** and **worst concave points** were identified as the most critical factors for prediction.
+
+### 📌 6. Training vs Testing Accuracy vs Tree Depth
+
+- Created a plot showing how accuracy evolves with tree depth.
+- Confirmed that allowing unrestricted depth leads to perfect training accuracy (overfitting), while a depth of around 4-5 gives the best testing performance.
 
 ---
 
-## How to Reproduce My Results
+## 🛠️ How to Reproduce My Results
 
 Follow these steps to reproduce the project:
 
 1. **Install required packages** (if not already installed):
-    ```bash
-    pip install numpy pandas scikit-learn matplotlib seaborn
-    ```
+   ```bash
+   pip install numpy pandas scikit-learn matplotlib seaborn
 
 2. **Clone the repository** or simply copy the files into your working directory.
 
