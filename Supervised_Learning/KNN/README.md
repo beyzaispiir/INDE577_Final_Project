@@ -1,6 +1,6 @@
-# K-Nearest Neighbors (KNN) Classification
+# 🤝 K-Nearest Neighbors (KNN) Classification
 
-## About K-Nearest Neighbors
+## 📋 About K-Nearest Neighbors
 
 K-Nearest Neighbors (KNN) is a simple yet powerful machine learning algorithm used for classification and regression tasks.  
 It is a non-parametric, instance-based learning method that makes predictions by finding the most common label among the k closest training examples in the feature space.
@@ -8,43 +8,55 @@ It is a non-parametric, instance-based learning method that makes predictions by
 The algorithm works based on distance metrics (like Euclidean distance) and does not make assumptions about the underlying data distribution.  
 Because of its simplicity and effectiveness, KNN is widely used in many real-world applications, including medical diagnosis, recommendation systems, and anomaly detection.
 
-## How KNN Works
+---
+
+## ⚙️ How KNN Works
 
 - Find the k training samples closest in distance to the new point.
 - Assign the most common label among those k neighbors to the new point.
 - No learning happens during training; the model "learns" at the time of prediction.
 
-## Advantages of KNN
+---
+
+## ✅ Advantages of KNN
 
 - Simple and easy to implement.
 - No need for model training (lazy learning).
 - Naturally handles multi-class classification problems.
 
-## Limitations of KNN
+---
+
+## ⚠️ Limitations of KNN
 
 - Slow prediction time for large datasets.
 - Sensitive to feature scaling and irrelevant features.
 - Requires careful selection of the number of neighbors (k).
 
-# Breast Cancer Classification with KNN
+---
 
-## Project Description
+# 🩺 Breast Cancer Classification with KNN
+
+## 📝 Project Description
 
 In this project, I used the K-Nearest Neighbors (KNN) algorithm to classify breast cancer tumors into malignant or benign categories.  
 The dataset used is the Breast Cancer Wisconsin dataset, which contains real-world medical diagnostic data.
 
 Instead of using a complex model, I focused on observing how well a simple KNN model could perform on a realistic, high-dimensional medical dataset.
 
-# Dataset
+---
 
-- Name: Breast Cancer Wisconsin (Diagnostic)
-- Samples: 569
-- Features: 30 numeric features related to tumor properties (radius, texture, perimeter, etc.)
-- Target Classes:
-  - 0 = malignant
-  - 1 = benign
+## 🗂️ Dataset Information
 
-# Technologies Used
+- **Name:** Breast Cancer Wisconsin (Diagnostic)
+- **Samples:** 569
+- **Features:** 30 numeric features related to tumor properties (radius, texture, perimeter, etc.)
+- **Target Classes:**
+  - 0 = Malignant
+  - 1 = Benign
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - NumPy
@@ -53,16 +65,15 @@ Instead of using a complex model, I focused on observing how well a simple KNN m
 - Matplotlib
 - Seaborn
 
-# Installation
+---
+
+## 🛠️ Installation
 
 1. Clone the repository.
 2. Install the required libraries:
+   ```bash
+   pip install numpy pandas matplotlib seaborn scikit-learn
 
-```
-pip install numpy pandas matplotlib seaborn scikit-learn
-```
-
-3. Run the notebook or Python script.
 
 # Project Workflow
 
