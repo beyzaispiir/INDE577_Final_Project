@@ -8,6 +8,8 @@ It is a non-parametric, instance-based learning method that makes predictions by
 The algorithm works based on distance metrics (like Euclidean distance) and does not make assumptions about the underlying data distribution.  
 Because of its simplicity and effectiveness, KNN is widely used in many real-world applications, including medical diagnosis, recommendation systems, and anomaly detection.
 
+I used the same dataset across my Decision Tree, KNN, and Random Forest models to ensure consistency and fair comparison.
+
 ---
 
 ## ⚙️ How KNN Works
