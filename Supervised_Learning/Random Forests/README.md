@@ -4,7 +4,7 @@
 
 This project implements a Random Forest Classifier to predict whether a tumor is malignant or benign based on the Breast Cancer dataset from Scikit-learn.  
 Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy and reduce overfitting.  
-I used the same dataset across my Decision Tree, Neural Network, and Random Forest models to ensure consistency and fair comparison.
+I used the same dataset across my Decision Tree, KNN, and Random Forest models to ensure consistency and fair comparison.
 
 ---
 
