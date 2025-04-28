@@ -41,7 +41,6 @@ This project explores the following key areas:
 - How model complexity (depth and number of neurons) impacts learning
 - How to analyze model behavior through loss curves, accuracy curves, and confusion matrices
 
-# Model Architecture
 This project uses a simple feedforward (dense) neural network to focus on the core concepts.
 
 ## Dataset: CIFAR-10
