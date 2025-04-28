@@ -1,4 +1,4 @@
-# Introduction
+# Neural Network
 
 Neural networks have become a key part of modern machine learning, driving advancements in areas like image recognition, speech processing, and natural language understanding. They are inspired by the biological structure of the brain, where interconnected neurons transmit information and learn from data. In machine learning, neural networks work by adjusting the weights between neurons to capture patterns hidden in complex datasets.
 
