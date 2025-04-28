@@ -1,118 +1,92 @@
-CIFAR-10 Image Classification Using a Custom Neural Network
-Project Overview
-This project explores image classification on the CIFAR-10 dataset using a fully connected (dense) neural network built from scratch with TensorFlow.
-Instead of using convolutional neural networks (CNNs), we wanted to first see how much performance a basic feedforward neural network could achieve on raw image data.
+# CIFAR-10 Image Classification Using a Custom Neural Network
 
-The CIFAR-10 dataset was chosen because it is a standard benchmark in computer vision with a diverse set of real-world images like animals, vehicles, and everyday objects.
+## Project Overview
+This project explores image classification on the CIFAR-10 dataset using a fully connected (dense) neural network built with TensorFlow.  
+Instead of using convolutional neural networks (CNNs), the focus here is to see how well a simple dense network can perform on real-world image data.
 
-The main goal is to understand:
+The main objectives are:
+- Understand the behavior of basic feedforward neural networks.
+- Visualize training and validation performance.
+- Identify model limitations and improvement areas.
 
-How simple neural networks perform on complex, real-world image data.
+## About Neural Networks
+Neural networks are machine learning models inspired by the brain.  
+There are several types of networks:
+- Feedforward Neural Networks (used in this project)
+- Convolutional Neural Networks (CNNs)
+- Recurrent Neural Networks (RNNs)
+- Transformers
 
-How training behavior can be visualized and interpreted.
+This project uses a simple feedforward (dense) neural network to focus on the core concepts.
 
-What the limitations are, and how the model could be improved.
+## Dataset: CIFAR-10
+- 60,000 color images (32x32 pixels, 3 channels)
+- 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+- 50,000 training images and 10,000 test images
+- [Link to CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-About Neural Networks
-A neural network is a machine learning model inspired by the human brain.
-There are many types of neural networks:
+## Technologies Used
+- Python
+- TensorFlow (Keras API)
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Feedforward Neural Networks (like the one used here)
+## Installation
+- Clone the repository.
+- Install required libraries:
+  ```bash
+  pip install tensorflow matplotlib seaborn scikit-learn
 
-Convolutional Neural Networks (CNNs) for image data
+## Model Architecture
+- **Input:** Flatten layer to convert 32x32x3 input into a 1D vector
 
-Recurrent Neural Networks (RNNs) for sequential data
+### Hidden Layers
+- Dense layer with 512 neurons (ReLU activation)
+- Dense layer with 256 neurons (ReLU activation)
+- Dense layer with 128 neurons (ReLU activation)
 
-Transformers for NLP tasks, and many more.
+### Output Layer
+- Dense layer with 10 neurons (Softmax activation)
 
-In this project, we built a basic feedforward network (Dense layers only) without any convolutional operations, to clearly observe the limitations and capabilities of a simple model.
+### Optimizer
+- Adam
 
-Dataset: CIFAR-10
-60,000 color images, 32x32 pixels each
+### Loss Function
+- Sparse Categorical Crossentropy
 
-10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+### Evaluation Metric
+- Accuracy
 
-50,000 images used for training, 10,000 for testing
+## Why This Setup
+- Fully connected layers are used to observe pure performance without convolution operations.
+- CIFAR-10 dataset provides a realistic, challenging benchmark for simple models.
+- Data normalization improves model convergence.
 
-More about CIFAR-10 here
+## Performance Summary
+| Metric | Value |
+|--------|-------|
+| Training Accuracy | ~49% |
+| Validation Accuracy | ~49% |
+| Test Accuracy | ~48% |
 
-Technologies Used
-Python
+Dense networks alone are not enough for complex image datasets like CIFAR-10, but they offer a valuable learning experience.
 
-TensorFlow (Keras API)
+## Visualizations
+- Training and Validation Loss Curves
+- Training and Validation Accuracy Curves
+- Confusion Matrix
+- Sample Predictions on Test Images
 
-NumPy
+## Limitations
+- Dense networks struggle with spatial features in image data.
+- CIFAR-10 usually requires convolutional layers for better performance.
+- Limited generalization ability without more complex architectures.
 
-Matplotlib
-
-Seaborn
-
-Scikit-learn (for evaluation metrics)
-
-Model Architecture
-Flatten Layer: Converts 32x32x3 images into a 1D vector.
-
-Dense Layer (512 neurons): Activation = ReLU
-
-Dense Layer (256 neurons): Activation = ReLU
-
-Dense Layer (128 neurons): Activation = ReLU
-
-Dense Output Layer (10 neurons): Activation = Softmax
-
-Optimizer: Adam
-Loss Function: Sparse Categorical Crossentropy
-Metrics: Accuracy
-
-Why This Setup?
-No CNN Layers: We intentionally used only fully connected layers to observe how far we can go without using convolutions.
-
-Normalized Images: Pixel values were scaled to [0, 1] range for faster and smoother training.
-
-Dense Architecture: A deeper model with 3 hidden layers was used to increase the network’s capacity to learn.
-
-Performance Summary
-
-Metric	Value
-Training Accuracy	~49%
-Validation Accuracy	~49%
-Test Accuracy	~48%
-Clearly, basic dense networks struggle to fully capture complex image structures without convolutional features.
-
-Visualizations
-📈 Training vs Validation Loss Curve: Shows how the model learns during training.
-
-📈 Training vs Validation Accuracy Curve: Measures generalization ability.
-
-📊 Confusion Matrix: Highlights where the model makes mistakes.
-
-🖼️ Sample Predictions: Visualizes how the model classifies unseen images.
-
-Limitations
-The model struggles to achieve high accuracy because dense layers cannot effectively capture local patterns (edges, shapes) in images.
-
-CIFAR-10 is a challenging dataset even for simple CNNs.
-
-Overfitting signs could appear if the model becomes too deep without proper regularization.
-
-Future Improvements
-✅ Replace dense layers with Convolutional layers (CNNs).
-✅ Apply Data Augmentation (random flips, rotations, zoom).
-✅ Introduce Dropout layers to prevent overfitting.
-✅ Experiment with learning rate scheduling or different optimizers.
-
-How to Run
-Clone the repository.
-
-Install dependencies:
-
-bash
-Kopyala
-Düzenle
-pip install tensorflow matplotlib seaborn scikit-learn
-Open the Jupyter Notebook Neural Network.ipynb.
-
-Run all cells sequentially.
-
-Author
-Beyza Ispir
+## Future Improvements
+- Replace dense layers with convolutional layers (CNN)
+- Apply data augmentation techniques
+- Introduce regularization like dropout and batch normalization
+- Try different optimizers and learning rate schedules
+  
