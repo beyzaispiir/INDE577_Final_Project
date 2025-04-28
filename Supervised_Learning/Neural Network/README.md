@@ -1,22 +1,47 @@
-# CIFAR-10 Image Classification Using a Custom Neural Network
+# Introduction
 
-## Project Overview
-This project explores image classification on the CIFAR-10 dataset using a fully connected (dense) neural network built with TensorFlow.  
-Instead of using convolutional neural networks (CNNs), the focus here is to see how well a simple dense network can perform on real-world image data.
+Neural networks have become a key part of modern machine learning, driving advancements in areas like image recognition, speech processing, and natural language understanding. They are inspired by the biological structure of the brain, where interconnected neurons transmit information and learn from data. In machine learning, neural networks work by adjusting the weights between neurons to capture patterns hidden in complex datasets.
 
-The main objectives are:
-- Understand the behavior of basic feedforward neural networks.
-- Visualize training and validation performance.
-- Identify model limitations and improvement areas.
+There are many different types of neural networks. Among the most popular are:
 
-## About Neural Networks
-Neural networks are machine learning models inspired by the brain.  
-There are several types of networks:
-- Feedforward Neural Networks (used in this project)
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs)
-- Transformers
+- **Convolutional Neural Networks (CNNs)**: specialized for processing grid-like data such as images.
+- **Recurrent Neural Networks (RNNs)**: specialized for sequential data like time series or text.
+- **Transformers**: using attention mechanisms, achieving state-of-the-art results in language and vision tasks.
 
+However, in this project, we deliberately chose to use a **simple feedforward (dense) neural network** — also called a **Fully Connected Neural Network**.  
+Instead of relying on convolutional operations, we built a network that connects every neuron in one layer to every neuron in the next.  
+The purpose of this choice is to study the basic behavior of neural networks without adding the extra complexity of convolutional layers.  
+By focusing on a dense structure, we can better understand how networks learn general patterns when given only raw pixel data.
+
+# Dataset
+
+We applied this approach to the **CIFAR-10 dataset**, a well-known benchmark for image classification.  
+It contains 60,000 color images across 10 classes:
+
+- airplane
+- automobile
+- bird
+- cat
+- deer
+- dog
+- frog
+- horse
+- ship
+- truck
+
+Each image has a size of **32x32 pixels** with **3 color channels** (RGB).  
+Despite the small size, CIFAR-10 presents a realistic challenge because of the high variability among classes.
+
+# Project Goals
+
+This project explores the following key areas:
+
+- How dense neural networks perform on real-world image data without spatial feature extraction
+- How normalization improves convergence during training
+- How model complexity (depth and number of neurons) impacts learning
+- How to analyze model behavior through loss curves, accuracy curves, and confusion matrices
+
+# Model Architecture
 This project uses a simple feedforward (dense) neural network to focus on the core concepts.
 
 ## Dataset: CIFAR-10
