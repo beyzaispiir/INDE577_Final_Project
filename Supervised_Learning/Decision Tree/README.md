@@ -10,6 +10,9 @@ I chose Decision Trees because they provide easy interpretability, allow visuali
 In classification problems like this, the algorithm splits the data into subsets based on the most informative features, using criteria like **Gini Index** or **Entropy (Information Gain)** to choose the best splits.  
 Although Decision Trees are prone to overfitting, controlling the maximum depth and pruning techniques can significantly improve their generalization.
 
+I used the same dataset across my Decision Tree, KNN, and Random Forest models to ensure consistency and fair comparison.
+
+
 ---
 
 ## 🗂️ Summary of the Dataset
