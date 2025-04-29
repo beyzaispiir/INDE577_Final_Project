@@ -44,24 +44,6 @@ This approach allowed me to see the relationships among wines and their features
 
 ---
 
-## ⚙️ How to Reproduce This Project
-
-Follow these steps to reproduce the results:
-
-1. Clone this repository to your local machine:
-
-```bash
-git clone <https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/blob/main/Unupervised_Learning/%20Principal%20Component%20Analysis/Principal%20Component%20Analysis.ipynb>
-
-
- Install Required Libraries:
-
-```bash
-pip install numpy pandas matplotlib scikit-learn
-
-
-- Run the Jupyter Notebook or use any other Python environment you prefer.
-
 ---
 
 ## 📚 Steps Covered Inside the Notebook
