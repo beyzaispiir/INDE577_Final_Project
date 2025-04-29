@@ -17,7 +17,7 @@ Each algorithm includes:
 - 
 ## 📂 Directory Structure
 
-- [Supervised_Learning/](../Supervised_Learning/)
+- [Supervised_Learning/]([../Supervised_Learning/](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning))
   - [Perceptron/](../Supervised_Learning/Perceptron/)
   - [Linear Regression/](../Supervised_Learning/Linear%20Regression/)
   - [Logistic Regression/](../Supervised_Learning/Logistic%20Regression/)
