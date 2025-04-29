@@ -52,3 +52,43 @@ Follow these steps to reproduce the results:
 
 ```bash
 git clone <https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/blob/main/Unupervised_Learning/%20Principal%20Component%20Analysis/Principal%20Component%20Analysis.ipynb>
+
+
+ Install Required Libraries:
+
+```bash
+pip install numpy pandas matplotlib scikit-learn
+
+
+- Run the Jupyter Notebook or use any other Python environment you prefer.
+
+---
+
+## 📚 Steps Covered Inside the Notebook
+
+- Import libraries and load the Red Wine Quality dataset.
+- Explore and preprocess the data.
+- Standardize the features to ensure they are on the same scale.
+- Apply Principal Component Analysis (PCA) and examine the explained variance.
+- Visualize the results using 2D and 3D scatter plots.
+- Analyze the principal component loadings to understand feature contributions.
+
+---
+
+## 📈 Visual Outputs Included
+
+- Scree Plot showing explained variance by each principal component.
+- 2D scatter plot projection onto the first two principal components.
+- 3D scatter plot projection onto the first three principal components.
+- Colorbar visualization based on wine quality scores.
+- Table showing how each original feature contributes to each principal component (PCA loadings).
+
+---
+
+## 🎯 Key Learning Points
+
+- PCA is an effective way to reveal structures and patterns in high-dimensional datasets.
+- Standardizing the data before applying PCA is critical because PCA is sensitive to feature scaling.
+- The first few principal components can often explain a large portion of the total variance.
+- Visualizing data using principal components makes it easier to interpret and explore complex relationships.
+- Analyzing the loadings provides insights into which features drive the major variations in the data.
