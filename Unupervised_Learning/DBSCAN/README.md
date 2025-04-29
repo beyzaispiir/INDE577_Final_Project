@@ -30,13 +30,7 @@ DBSCAN is a powerful clustering technique because it can find clusters of varyin
 
 ---
 
-## ⚙️ How to Reproduce
 
-1. Clone or download this repository.
-2. Install the required Python libraries if you don't have them yet:
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
 ## ⚙️ How to Reproduce
 
 Run the notebook in **Jupyter Notebook** or your preferred Python environment.
