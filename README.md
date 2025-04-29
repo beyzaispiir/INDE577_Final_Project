@@ -2,44 +2,37 @@
 
 ## Overview
 
-This repository contains my final project for CMOR 438/INDE 577: Data Science & Machine Learning.  
-It demonstrates my understanding of supervised and unsupervised learning algorithms, following the project requirements.
+This repository contains implementations of key supervised and unsupervised machine learning algorithms from scratch.
 
-The repository includes two main directories:
-- **Supervised_Learning/**
-- **Unsupervised_Learning/**
+## 🧠 Supervised Learning
 
-Each algorithm includes:
-- Full implementation (mostly from scratch)
-- Use of a different dataset from lecture examples
-- Visualizations and analysis
-- A README.md in each folder
-- 
-## 📂 Directory Structure
+- [Perceptron](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Perceptron)
+- [Linear Regression](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Linear%20Regression)
+- [Logistic Regression](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Logistic%20Regression)
+- [Neural Network](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Neural%20Network)
+- [K Nearest Neighbors (KNN)](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/KNN)
+- [Decision Tree](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Decision%20Tree)
+- [Random Forests](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Random%20Forests)
+- [Ensemble Learning](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning/Ensemble%20Learning)
 
-- [Supervised_Learning/]([../Supervised_Learning/](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Supervised_Learning))
-  - [Perceptron/](../Supervised_Learning/Perceptron/)
-  - [Linear Regression/](../Supervised_Learning/Linear%20Regression/)
-  - [Logistic Regression/](../Supervised_Learning/Logistic%20Regression/)
-  - [Neural Network/](../Supervised_Learning/Neural%20Network/)
-  - [KNN/](../Supervised_Learning/KNN/)
-  - [Decision Tree/](../Supervised_Learning/Decision%20Tree/)
-  - [Random Forests/](../Supervised_Learning/Random%20Forests/)
-  - [Ensemble Learning/](../Supervised_Learning/Ensemble%20Learning/)
+## 📊 Unsupervised Learning
 
-- [Unsupervised_Learning/](../Unsupervised_Learning/)
-  - [K-Means Clustering/](../Unsupervised_Learning/K-Means%20Clustering/)
-  - [DBSCAN/](../Unsupervised_Learning/DBSCAN/)
-  - [Principal Component Analysis/](../Unsupervised_Learning/Principal%20Component%20Analysis/)
-  - [Image Compression with the Singular Value Decomposition (SVD)/](../Unsupervised_Learning/Image%20Compression%20with%20the%20Singular%20Value%20Decomposition%20%28SVD%29/)
-
-
-Each folder contains:
-- Jupyter Notebook files with full implementation and results
-- Visualizations (plots, learning curves, decision boundaries)
-- A `README.md` specific to each algorithm (brief description, dataset summary, reproduction steps)
+- [K-Means Clustering](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Unupervised_Learning/K-Means%20Clustering)
+- [DBSCAN](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Unupervised_Learning/DBSCAN)
+- [Principal Component Analysis (PCA)](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Unupervised_Learning/%20Principal%20Component%20Analysis)
+- [Image Compression with Singular Value Decomposition (SVD)](https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/tree/main/Unupervised_Learning/Image%20Compression%20with%20the%20Singular%20Value%20Decomposition%20(SVD))
 
 ---
+
+✅ Each folder contains:
+- Full code implementations from scratch
+- Dataset summaries
+- Visualizations (plots, decision boundaries, learning curves)
+- Results and analysis
+- README.md files explaining algorithms and usage
+
+---
+
 
 ## 📚 Implemented Algorithms
 
