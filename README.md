@@ -1,4 +1,4 @@
-# 📚 Final Project: Data Science & Machine Learning (CMOR 438/INDE 577)
+# 📚 Final Project: Data Science & Machine Learning (INDE 577)
 
 ## Overview
 
@@ -14,34 +14,48 @@ Each algorithm includes:
 - Use of a different dataset from lecture examples
 - Visualizations and analysis
 - A README.md in each folder
+- 
+## 📂 Directory Structure
 
-## Directory Structure
-├── Supervised_Learning
-│   ├── Perceptron
-│   ├── Logistic_Regression
-│   └── (other supervised learning algorithms)
-├── Unsupervised_Learning
-│   ├── KMeans
-│   └── (other unsupervised learning algorithms)
-└── README.md
+- `Supervised_Learning/`
+  - `Perceptron/`
+  - `Linear Regression/`
+  - `Logistic Regression/`
+  - `Neural Network/`
+  - `KNN/`
+  - `Decision Tree/`
+  - `Random Forests/`
+  - `Ensemble Learning/`
+- `Unsupervised_Learning/`
+  - `K-Means Clustering/`
+  - `DBSCAN/`
+  - `Principal Component Analysis/`
+  - `Image Compression with the Singular Value Decomposition (SVD)/`
 
+Each folder contains:
+- Jupyter Notebook files with full implementation and results
+- Visualizations (plots, learning curves, decision boundaries)
+- A `README.md` specific to each algorithm (brief description, dataset summary, reproduction steps)
 
-## Implemented Algorithms
+---
+
+## 📚 Implemented Algorithms
 
 ### Supervised Learning
 - Perceptron
+- Linear Regression
 - Logistic Regression
-- (to be completed: Linear Regression, Neural Networks, Decision Trees, etc.)
+- Neural Networks (basic feedforward)
+- K-Nearest Neighbors (KNN)
+- Decision Trees
+- Random Forests
+- Other Ensemble Methods (Boosting)
 
 ### Unsupervised Learning
-- (to be completed: KMeans Clustering, DBSCAN, PCA, SVD)
-
-## Dataset Summary
-
-- **Perceptron**: A manually created dataset based on customers' annual income and spending score, predicting purchase behavior (binary classification).
-- **Logistic Regression**: A synthetic dataset created manually with two continuous features (X1, X2) and a binary target.
-
-Datasets were created manually or selected carefully to be different from lecture examples.
+- K-Means Clustering
+- DBSCAN
+- Principal Component Analysis (PCA)
+- Image Compression using SVD
 
 ## Instructions for Reproducing Results
 
