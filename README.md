@@ -6,6 +6,15 @@
 - **Instructor:** Dr. Randy R. Davila  
 - **Semester:** Fall 2024
 
+## Tools and Libraries Used:
+- Python 3.8
+- Libraries:  
+  - **NumPy**  
+  - **Pandas**  
+  - **Matplotlib**  
+  - **Seaborn**  
+  - **scikit-learn**
+
 This course introduced core concepts of machine learning, covering topics like regression models, clustering methods, decision trees, neural networks, and ensemble techniques.
 
 This repository presents my final project for **CMOR 438/INDE 577: Data Science & Machine Learning** at Rice University, completed under the supervision of **Dr. Randy R. Davila**.  
@@ -18,16 +27,6 @@ Each section includes full code, analysis, visualizations, and documentation, re
 - Clear visualizations such as decision boundaries, scatter plots, and learning curves.
 - Detailed result analysis and discussion for each model.
 
-
-
-## Tools and Libraries Used:
-- Python 3.8
-- Libraries:  
-  - **NumPy**  
-  - **Pandas**  
-  - **Matplotlib**  
-  - **Seaborn**  
-  - **scikit-learn**
 
 ## Overview
 
