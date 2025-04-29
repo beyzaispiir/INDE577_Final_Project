@@ -1,5 +1,32 @@
 # 📚 Final Project: Data Science & Machine Learning (INDE 577)
 
+This repository presents my final project for **CMOR 438/INDE 577: Data Science & Machine Learning** at Rice University, completed under the supervision of **Dr. Randy R. Davila**.  
+In this project, I implemented key supervised and unsupervised machine learning algorithms entirely from scratch, applying them to original and carefully selected datasets to simulate real-world applications.
+Each section includes full code, analysis, visualizations, and documentation, reflecting my understanding of both fundamental concepts and practical modeling techniques.
+
+## What This Project Includes:
+- Implementation of important algorithms for **supervised** and **unsupervised** learning.
+- Application of models to unique or self-created datasets (not reusing lecture datasets).
+- Clear visualizations such as decision boundaries, scatter plots, and learning curves.
+- Detailed result analysis and discussion for each model.
+
+## Course Information:
+- **Course Name:** Data Science and Machine Learning (CMOR 438/INDE 577)
+- **University:** Rice University
+- **Instructor:** Dr. Randy R. Davila  
+- **Semester:** Fall 2024
+
+This course introduced core concepts of machine learning, covering topics like regression models, clustering methods, decision trees, neural networks, and ensemble techniques.
+
+## Tools and Libraries Used:
+- Python 3.8
+- Libraries:  
+  - **NumPy**  
+  - **Pandas**  
+  - **Matplotlib**  
+  - **Seaborn**  
+  - **scikit-learn**
+
 ## Overview
 
 This repository contains implementations of key supervised and unsupervised machine learning algorithms from scratch.
@@ -71,3 +98,16 @@ This repository contains implementations of key supervised and unsupervised mach
 - Documentation is complete and clear following the final project rubric.
 
 ---
+## Instructor Contact:
+- Dr. Randy R. Davila
+- Department of Computational and Applied Mathematics
+- Rice University, Houston, TX 77005
+- Email: [rrd6@rice.edu]
+---
+## 📜 Acknowledgments
+
+Special thanks to **Dr. Randy R. Davila** for providing clear guidance and project objectives throughout the course.  
+The recommendations from **Towards Data Science** and the course material were instrumental in helping me successfully complete this project.
+
+---
+
