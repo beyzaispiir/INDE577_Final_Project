@@ -1,5 +1,13 @@
 # 📚 Final Project: Data Science & Machine Learning (INDE 577)
 
+## Course Information:
+- **Course Name:** Data Science and Machine Learning (CMOR 438/INDE 577)
+- **University:** Rice University
+- **Instructor:** Dr. Randy R. Davila  
+- **Semester:** Fall 2024
+
+This course introduced core concepts of machine learning, covering topics like regression models, clustering methods, decision trees, neural networks, and ensemble techniques.
+
 This repository presents my final project for **CMOR 438/INDE 577: Data Science & Machine Learning** at Rice University, completed under the supervision of **Dr. Randy R. Davila**.  
 In this project, I implemented key supervised and unsupervised machine learning algorithms entirely from scratch, applying them to original and carefully selected datasets to simulate real-world applications.
 Each section includes full code, analysis, visualizations, and documentation, reflecting my understanding of both fundamental concepts and practical modeling techniques.
@@ -10,13 +18,7 @@ Each section includes full code, analysis, visualizations, and documentation, re
 - Clear visualizations such as decision boundaries, scatter plots, and learning curves.
 - Detailed result analysis and discussion for each model.
 
-## Course Information:
-- **Course Name:** Data Science and Machine Learning (CMOR 438/INDE 577)
-- **University:** Rice University
-- **Instructor:** Dr. Randy R. Davila  
-- **Semester:** Fall 2024
 
-This course introduced core concepts of machine learning, covering topics like regression models, clustering methods, decision trees, neural networks, and ensemble techniques.
 
 ## Tools and Libraries Used:
 - Python 3.8
