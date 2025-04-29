@@ -61,13 +61,11 @@ img = imread('your_image.jpg')
 
 The notebook performs the following actions:
 
-- 📥 **Load and display the original image**
-- 🌈 **Separate the RGB channels** (Red, Green, Blue)
-- 📐 **Apply Singular Value Decomposition (SVD)** to each color channel
-- 🛠 **Reconstruct compressed versions** for various values of `k` (number of singular values)
-- 🖼 **Visualize the compression effects** to assess quality vs. compression trade-off
-- 🌈 **(Bonus)**: Visualize each RGB channel separately
-- 🎛 **(Bonus)**: Use interactive sliders to explore compression dynamically (requires `ipywidgets`)
+-  **Load and display the original image**
+-  **Separate the RGB channels** (Red, Green, Blue)
+-  **Apply Singular Value Decomposition (SVD)** to each color channel
+-  **Reconstruct compressed versions** for various values of `k` (number of singular values)
+-  **Visualize the compression effects** to assess quality vs. compression trade-off
 
 ---
 
