@@ -17,20 +17,22 @@ Each algorithm includes:
 - 
 ## 📂 Directory Structure
 
-- `Supervised_Learning/`
-  - `Perceptron/`
-  - `Linear Regression/`
-  - `Logistic Regression/`
-  - `Neural Network/`
-  - `KNN/`
-  - `Decision Tree/`
-  - `Random Forests/`
-  - `Ensemble Learning/`
-- `Unsupervised_Learning/`
-  - `K-Means Clustering/`
-  - `DBSCAN/`
-  - `Principal Component Analysis/`
-  - `Image Compression with the Singular Value Decomposition (SVD)/`
+- [Supervised_Learning/](../Supervised_Learning/)
+  - [Perceptron/](../Supervised_Learning/Perceptron/)
+  - [Linear Regression/](../Supervised_Learning/Linear%20Regression/)
+  - [Logistic Regression/](../Supervised_Learning/Logistic%20Regression/)
+  - [Neural Network/](../Supervised_Learning/Neural%20Network/)
+  - [KNN/](../Supervised_Learning/KNN/)
+  - [Decision Tree/](../Supervised_Learning/Decision%20Tree/)
+  - [Random Forests/](../Supervised_Learning/Random%20Forests/)
+  - [Ensemble Learning/](../Supervised_Learning/Ensemble%20Learning/)
+
+- [Unsupervised_Learning/](../Unsupervised_Learning/)
+  - [K-Means Clustering/](../Unsupervised_Learning/K-Means%20Clustering/)
+  - [DBSCAN/](../Unsupervised_Learning/DBSCAN/)
+  - [Principal Component Analysis/](../Unsupervised_Learning/Principal%20Component%20Analysis/)
+  - [Image Compression with the Singular Value Decomposition (SVD)/](../Unsupervised_Learning/Image%20Compression%20with%20the%20Singular%20Value%20Decomposition%20%28SVD%29/)
+
 
 Each folder contains:
 - Jupyter Notebook files with full implementation and results
