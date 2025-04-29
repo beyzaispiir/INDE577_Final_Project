@@ -51,4 +51,4 @@ Follow these steps to reproduce the results:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone <repository-link>
+git clone <https://github.com/beyzaispiir/ML_Algorithms_From_Scratch/blob/main/Unupervised_Learning/%20Principal%20Component%20Analysis/Principal%20Component%20Analysis.ipynb>
