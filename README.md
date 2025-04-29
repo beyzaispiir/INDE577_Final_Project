@@ -34,24 +34,6 @@ This repository contains implementations of key supervised and unsupervised mach
 ---
 
 
-## 📚 Implemented Algorithms
-
-### Supervised Learning
-- Perceptron
-- Linear Regression
-- Logistic Regression
-- Neural Networks (basic feedforward)
-- K-Nearest Neighbors (KNN)
-- Decision Trees
-- Random Forests
-- Other Ensemble Methods (Boosting)
-
-### Unsupervised Learning
-- K-Means Clustering
-- DBSCAN
-- Principal Component Analysis (PCA)
-- Image Compression using SVD
-
 ## Instructions for Reproducing Results
 
 1. Clone the repository:
